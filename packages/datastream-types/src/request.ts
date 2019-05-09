@@ -30,9 +30,9 @@ export type Request$Complete<
 };
 
 export type Subscribe$Requests =
+  | 'subscribe'
   | 'subscribeToAccounts'
   | 'subscribeToMarkets'
-  | 'subscribe'
   | 'subscribeToChains'
   | 'unsubscribe';
 
@@ -42,6 +42,7 @@ export type Subscribe$Categories =
   | 'chains'
   | 'account'
   | 'subscribe'
+  | 'unsubscribe'
   | 'market'
   | 'chain';
 

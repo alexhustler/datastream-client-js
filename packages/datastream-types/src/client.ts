@@ -54,6 +54,7 @@ export interface Client {
     topics: string,
     events?: string | string[],
     context?: Record<string | number, unknown>,
+    channel?: string
   ): Client$SendResponse<string, Subscribe$Requests>;
 
   unsubscribe(

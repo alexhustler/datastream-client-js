@@ -253,6 +253,7 @@ export class DatastreamClient implements $Datastream.Client {
     topics: string,
     rawEvents?: string | string[],
     context?: Record<string | number, unknown>,
+    channel?: string,
   ): $Datastream.Client$SendResponse<string, $Datastream.Subscribe$Requests> {
     if (!topics) {
       throw new ValidationError(
@@ -274,6 +275,7 @@ export class DatastreamClient implements $Datastream.Client {
       request,
       {
         action: 'subscribe',
+        channel,
         topics,
         events,
       },
@@ -295,6 +297,7 @@ export class DatastreamClient implements $Datastream.Client {
     from: $Datastream.Subscribe$Categories,
     rawTopics?: string | string[],
     context?: Record<string | number, unknown>,
+    channel?: string
   ): $Datastream.Client$SendResponse<string, $Datastream.Subscribe$Requests> {
     const request = TO_REQUEST[from];
     if (!request) {
@@ -311,6 +314,7 @@ export class DatastreamClient implements $Datastream.Client {
       {
         action: 'unsubscribe',
         topics,
+        channel,
       },
       !this.config.stateful,
       context,

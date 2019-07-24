@@ -44,6 +44,8 @@ export const TO_REQUEST: Record<string, $Datastream.Subscribe$Requests> = {
 
   market: 'subscribeToMarkets',
   markets: 'subscribeToMarkets',
+  subscribe: 'subscribe',
+  unsubscribe: 'unsubscribe',
   chain: 'subscribeToChains',
   chains: 'subscribeToChains',
 };

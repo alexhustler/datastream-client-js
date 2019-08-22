@@ -3,7 +3,7 @@
   "files": [],
   "references": [
     {
-      "path": "./datastream-types"
+      "path": "./p9-datastream-types"
     },
     {
       "path": "./datastream-client"

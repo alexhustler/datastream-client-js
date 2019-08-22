@@ -1,4 +1,4 @@
-import * as $Datastream from '@auroradao/datastream-types';
+import * as $Datastream from '@auroradao/p9-datastream-types';
 
 // check for a pong packet without parsing it to an object
 const PONG_RE = /^[^{]*{[^"]*"pong"[^:]*:"[^:]+:[^"]+"[^}"a-zA-Z0-9]*}/;
@@ -64,9 +64,9 @@ export default function createDatastreamConnector(
     ping(sid: string) {
       /* Since the HTML5 API does not provide `ping` capabilities
          we need to utilize the (currently undocumented) ping api
-         which the Datastream Server provides.  This will cause a 
+         which the Datastream Server provides.  This will cause a
          disconnect if `sid` is over 25 characters of length, isn't
-         a string, or if the connection is not handshaked, it must 
+         a string, or if the connection is not handshaked, it must
          also be the value the server has for the `sid` or it will
          cause a disconnect as well. */
       socket.send(

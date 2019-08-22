@@ -24,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@auroradao/datastream-types": "^1.8.0",
+    "@auroradao/p9-datastream-types": "^0.0.2",
     "uws": "10.148.1"
   },
   "devDependencies": {

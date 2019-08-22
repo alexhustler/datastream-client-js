@@ -39,7 +39,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.6.1](https://github.com/AuroraDAO/datastream-client-js/compare/v1.6.0...v1.6.1) (2019-04-18)
 
-**Note:** Version bump only for package @auroradao/datastream-types
+**Note:** Version bump only for package @auroradao/p9-datastream-types
 
 
 
@@ -92,7 +92,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.3.1](https://github.com/AuroraDAO/datastream-client-js/compare/v1.3.0...v1.3.1) (2019-03-20)
 
-**Note:** Version bump only for package @auroradao/datastream-types
+**Note:** Version bump only for package @auroradao/p9-datastream-types
 
 
 
@@ -111,7 +111,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.2.2](https://github.com/AuroraDAO/datastream-client-js/compare/v1.2.1...v1.2.2) (2019-03-12)
 
-**Note:** Version bump only for package @auroradao/datastream-types
+**Note:** Version bump only for package @auroradao/p9-datastream-types
 
 
 
@@ -119,7 +119,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.1.3-alpha.0](https://github.com/AuroraDAO/datastream-client-js/compare/v1.1.2...v1.1.3-alpha.0) (2019-02-16)
 
-**Note:** Version bump only for package @auroradao/datastream-types
+**Note:** Version bump only for package @auroradao/p9-datastream-types
 
 
 
@@ -127,7 +127,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.1.2](https://github.com/AuroraDAO/datastream-client-js/compare/v1.1.1...v1.1.2) (2019-02-11)
 
-**Note:** Version bump only for package @auroradao/datastream-types
+**Note:** Version bump only for package @auroradao/p9-datastream-types
 
 
 
@@ -135,7 +135,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.1.1](https://github.com/AuroraDAO/datastream-client-js/compare/v1.1.0...v1.1.1) (2019-02-10)
 
-**Note:** Version bump only for package @auroradao/datastream-types
+**Note:** Version bump only for package @auroradao/p9-datastream-types
 
 
 
@@ -143,4 +143,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 1.1.0 (2019-02-10)
 
-**Note:** Version bump only for package @auroradao/datastream-types
+**Note:** Version bump only for package @auroradao/p9-datastream-types

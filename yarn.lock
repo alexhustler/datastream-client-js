@@ -2233,7 +2233,7 @@ dashdash@^1.12.0:
   dependencies:
     "@auroradao/datastream-connection" "^1.7.0"
     "@auroradao/datastream-connector-web" "^1.7.0"
-    "@auroradao/datastream-types" "^1.7.0"
+    "@auroradao/p9-datastream-types" "^1.7.0"
     shortid "^2.2.14"
     task-handler "^2.12.0"
 

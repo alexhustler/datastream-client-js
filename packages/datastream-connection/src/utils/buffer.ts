@@ -1,5 +1,5 @@
 /* @flow */
-import * as $Datastream from '@auroradao/datastream-types';
+import * as $Datastream from '@auroradao/p9-datastream-types';
 import requests from '../requests';
 
 interface Buffer$Instance {

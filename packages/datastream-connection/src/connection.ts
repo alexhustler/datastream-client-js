@@ -1,4 +1,4 @@
-import * as $Datastream from '@auroradao/datastream-types';
+import * as $Datastream from '@auroradao/p9-datastream-types';
 
 import { Task$Handler } from 'task-handler';
 
@@ -368,7 +368,7 @@ export default function createConnection(
           error,
         );
         /* In the case that the socket does not call "close" as-is
-           expected, we create a deferred task to reconnect which 
+           expected, we create a deferred task to reconnect which
            will be cancelled by the `close` handler if it is called
            as-expected. */
         task.after('connection:error-reconnect', 1000, () => reconnect());

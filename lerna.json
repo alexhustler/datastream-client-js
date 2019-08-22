@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/datastream-client"
+    "packages/datastream-client",
+    "packages/p9-datastream-types/"
   ],
   "conventionalCommits": true,
   "useWorkspaces": true,

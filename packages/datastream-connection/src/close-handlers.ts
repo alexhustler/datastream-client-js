@@ -1,4 +1,4 @@
-import * as $Datastream from '@auroradao/datastream-types';
+import * as $Datastream from '@auroradao/p9-datastream-types';
 
 interface ClosureHandlers {
   [code: number]: (reason: string, config: $Datastream.Configuration) => void;

@@ -6,5 +6,5 @@
     "rootDir": "src",
     "outDir": "lib"
   },
-  "references": [{ "path": "../datastream-types" }]
+  "references": [{ "path": "../p9-datastream-types" }]
 }

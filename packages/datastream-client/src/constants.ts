@@ -1,5 +1,5 @@
 import WebConnector from '@auroradao/datastream-connector-web';
-import * as $Datastream from '@auroradao/datastream-types';
+import * as $Datastream from '@auroradao/p9-datastream-types';
 
 /**
  * The Datastream protocol version that this client library was built to

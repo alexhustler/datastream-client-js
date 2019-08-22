@@ -1,4 +1,4 @@
-import * as $Datastream from '@auroradao/datastream-types';
+import * as $Datastream from '@auroradao/p9-datastream-types';
 import { DatastreamClient } from './client';
 import { createRunningConfig } from './config';
 

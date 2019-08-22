@@ -1,6 +1,6 @@
 {
   "name": "@auroradao/p9-datastream-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily connect with the P9 Datastream API",
   "main": "lib/index.js",
   "source": "src/index.ts",

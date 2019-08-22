@@ -1,5 +1,5 @@
 import createConnection from '@auroradao/datastream-connection';
-import * as $Datastream from '@auroradao/datastream-types';
+import * as $Datastream from '@auroradao/p9-datastream-types';
 
 import createTaskHandler, {
   Task$Ref,

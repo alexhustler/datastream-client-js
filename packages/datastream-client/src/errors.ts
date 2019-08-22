@@ -1,4 +1,4 @@
-import * as $Datastream from '@auroradao/datastream-types';
+import * as $Datastream from '@auroradao/p9-datastream-types';
 
 export class ValidationError<D extends string> extends Error
   implements $Datastream.ValidationError {

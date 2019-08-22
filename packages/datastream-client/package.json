@@ -1,7 +1,7 @@
 {
   "name": "@auroradao/p9-datastream-client",
-  "version": "4.0.0",
-  "description": "Easily connect with the IDEX Datastream API",
+  "version": "0.0.1",
+  "description": "Easily connect with the P9 Datastream API",
   "main": "lib/index.js",
   "source": "src/index.ts",
   "repository": "git@github.com:alexhustler/datastream-client.git",
@@ -27,9 +27,6 @@
     "test": "npm-run-all -p test:*",
     "try": "ts-node ./quick-try",
     "try:watch": "ts-node-dev --respawn ./quick-try"
-  },
-  "publishConfig": {
-    "access": "private"
   },
   "nyc": {
     "include": [

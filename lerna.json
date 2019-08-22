@@ -1,6 +1,6 @@
 {
   "packages": [
-    "packages/*"
+    "packages/datastream-client"
   ],
   "conventionalCommits": true,
   "useWorkspaces": true,

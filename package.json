@@ -1,12 +1,12 @@
 {
-  "name": "@auroradao/datastream-client-js",
+  "name": "@auroradao/p9-datastream-client-js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AuroraDao/datastream-client-js.git"
+    "url": "git+https://github.com/alexhustler/datastream-client-js.git"
   },
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/datastream-client"
   ],
   "scripts": {
     "build": "npm-run-all clean lint -p build:*",

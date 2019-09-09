@@ -1,5 +1,5 @@
 {
-  "name": "@auroradao/p9-datastream-types",
+  "name": "@idexio/p9-datastream-types",
   "version": "0.0.2",
   "description": "Typedefs for the @auroradao/p9-datastream-client",
   "main": "lib/index.js",

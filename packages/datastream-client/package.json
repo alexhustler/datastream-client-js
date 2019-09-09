@@ -1,5 +1,5 @@
 {
-  "name": "@auroradao/p9-datastream-client",
+  "name": "@idexio/p9-datastream-client",
   "version": "0.0.2",
   "description": "Easily connect with the P9 Datastream API",
   "main": "lib/index.js",
